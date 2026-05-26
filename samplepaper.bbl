@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{albarran2025}
+Albarr{\'a}n~Morillo, C., et~al.: Early detection of physical fatigue in
+  industry using wearable sensors and contextual modeling. Safety Science
+  \textbf{194},  107041 (2025). \doi{10.1016/j.ssci.2025.107041}
+
+\bibitem{anjum2025}
+Anjum, S., et~al.: Generalizing fatigue prediction models for construction
+  workers: Cross-experiment evaluation with transfer learning across thermal
+  and load conditions. Automation in Construction  \textbf{181},  106680
+  (2025). \doi{10.1016/j.autcon.2025.106680}
+
+\bibitem{cheng2025}
+Cheng, M.Y., et~al.: Automated fall risk classification for construction
+  workers using wearable devices, bim, and optimized hybrid deep learning.
+  Automation in Construction  \textbf{172},  106072 (2025).
+  \doi{10.1016/j.autcon.2025.106072}
+
+\bibitem{fasoyinu2025}
+Fasoyinu, A.A., et~al.: Wearable sensing devices for construction safety:
+  Research trends, applications, and future prospects. Automation in
+  Construction  \textbf{179},  106424 (2025).
+  \doi{10.1016/j.autcon.2025.106424}
+
+\bibitem{goutham2025}
+Goutham, D., et~al.: Ai-driven fatigue prediction in healthcare professionals
+  using wearable sensor data and gradient-boosted machine learning models. In:
+  2025 International Conference on Recent Innovations in Science, Engineering
+  and Technology (ICRISET). pp.~1--8 (2025).
+  \doi{10.1109/ICRISET64803.2025.11254790}
+
+\bibitem{kakhi2025}
+Kakhi, K., et~al.: Fatigue monitoring using wearables and ai: Trends,
+  challenges, and future opportunities. Computers in Biology and Medicine
+  \textbf{195},  110461 (2025). \doi{10.1016/j.compbiomed.2025.110461}
+
+\bibitem{karim2025}
+Karim, R., et~al.: Advancing physical and mental fatigue analysis in
+  construction workers. Developments in the Built Environment  \textbf{24},
+  100808 (2025). \doi{10.1016/j.dibe.2025.100808}
+
+\bibitem{leng2024}
+Leng, J.: Unlocking the power of industrial artificial intelligence towards
+  industry 5.0: Insights, pathways, and challenges. Journal of Manufacturing
+  Systems  \textbf{70},  263--278 (2024). \doi{10.1016/j.jmsy.2024.02.010}
+
+\bibitem{ojha2024}
+Ojha, A., et~al.: Worker-centric heat strain analysis: Integrating
+  physiological signals with ensemble learning and domain adaptation.
+  Automation in Construction  \textbf{166},  105670 (2024).
+  \doi{10.1016/j.autcon.2024.105670}
+
+\bibitem{page2021prisma}
+Page, M.J., McKenzie, J.E., Bossuyt, P.M., Boutron, I., Hoffmann, T.C., Mulrow,
+  C.D., et~al.: The prisma 2020 statement: an updated guideline for reporting
+  systematic reviews. Systematic Reviews  \textbf{10}, ~89 (2021).
+  \doi{10.1186/s13643-021-01626-4}
+
+\bibitem{sim2023}
+Sim, S.H., et~al.: Exploring edge machine learning-based stress prediction
+  using wearable devices. In: 2022 IEEE International Conference on Machine
+  Learning and Applications (ICMLA). pp. 1266--1273 (2023).
+  \doi{10.1109/ICMLA55696.2022.00203}
+
+\bibitem{thomas2025}
+Thomas, J.S., et~al.: Iot wearable devices to detect and monitor mental health
+  and stress. In: 2025 4th International Conference on Sensors and Related
+  Networks (SENNET). pp.~1--5 (2025). \doi{10.1109/SENNET64220.2025.11135933}
+
+\bibitem{umer2025}
+Umer, W., et~al.: Deep learning-based fatigue monitoring of construction
+  workers using physiological signals: A reassessment of the utility of deep
+  learning models. Automation in Construction  \textbf{177},  106356 (2025).
+  \doi{10.1016/j.autcon.2025.106356}
+
+\bibitem{wang2024}
+Wang, M., et~al.: Monitoring and evaluating the status and behaviour of
+  construction workers using wearable sensing technologies: A review.
+  Automation in Construction  \textbf{165},  105555 (2024).
+  \doi{10.1016/j.autcon.2024.105555}
+
+\end{thebibliography}
