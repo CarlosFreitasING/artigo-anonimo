@@ -1,20 +1,38 @@
-Dear llncs user,
+Project README
 
-The files in this directory belong to the LaTeX2e package
-for Springer's Lecture Notes in Computer Science (LNCS) and
-other proceedings book series.
+This workspace contains an academic article prepared with the Springer
+Lecture Notes in Computer Science (LNCS) LaTeX format.
 
-It consists of the following files:
+Main document
 
-  readme.txt         this file
+- anonymous-article.tex : Main manuscript source file
+- anonymous-article.pdf : Compiled PDF output
 
-  history.txt        the version history of the package
+Bibliography
 
-  llncs.cls          the LaTeX2e document class
+- mybibliography.bib : BibTeX database with all references
+- splncs04.bst : LNCS BibTeX style
 
-  samplepaper.tex    a sample paper
-  fig1.eps           a figure used in the sample paper
+Important support files
 
-  llncsdoc.pdf       the documentation of the class (PDF version)
+- llncs.cls : LNCS document class
+- appendixA.tex : Appendix content included by the manuscript
+- PRISMA.jpg : Figure used in the paper
+- llncsdoc.pdf : LNCS class documentation
 
-  splncs04.bst       current LNCS BibTeX style with alphabetic sorting
+How to compile (BibTeX workflow)
+
+Run the following commands in this folder:
+
+1. pdflatex -interaction=nonstopmode anonymous-article.tex
+2. bibtex anonymous-article
+3. pdflatex -interaction=nonstopmode anonymous-article.tex
+4. pdflatex -interaction=nonstopmode anonymous-article.tex
+
+Notes
+
+- The project is configured to use BibTeX, not a manually written bibliography.
+- Citation ordering/compression is handled in the LaTeX source using the
+  cite package.
+- Generated files (.aux, .bbl, .blg, .log) can be regenerated at any time
+  from anonymous-article.tex and mybibliography.bib.

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.25)  26 MAY 2026 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.25)  26 MAY 2026 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Carlo/Desktop/articulo EN/samplepaper.tex"
-(c:/Users/Carlo/Desktop/articulo EN/samplepaper.tex
+**"c:/Users/Carlo/Desktop/articulo EN/anonymous-article.tex"
+(c:/Users/Carlo/Desktop/articulo EN/anonymous-article.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (llncs.cls
@@ -501,8 +501,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box120
-) (samplepaper.aux)
-\openout1 = `samplepaper.aux'.
+) (anonymous-article.aux)
+\openout1 = `anonymous-article.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -616,7 +616,7 @@ Underfull \vbox (badness 2856) has occurred while \output is active []
 
  [5 <./PRISMA.jpg>] [6] [7]
 Package pgfplots info on input line 338: Using 'lua backend=false' for axis: x coord trafo unsupported.
- [8] [9] [10] [11] (samplepaper.bbl
+ [8] [9] [10] [11] (anonymous-article.bbl
 Underfull \hbox (badness 1681) in paragraph at lines 24--28
 []\T1/cmr/m/n/8 Fasoyinu, A.A., et al.: Wear-able sens-ing de-vices for con-struc-tion safety: Re-search trends,
  []
@@ -651,7 +651,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 52--56
 []\T1/cmr/m/n/8 Ojha, A., et al.: Worker-centric heat strain anal-y-sis: In-te-grat-ing phys-i-o-log-i-cal sig-nals with
  []
 
-) [12] (samplepaper.aux)
+) [12] (anonymous-article.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -659,14 +659,14 @@ L3 programming layer <2024-01-04>
  ) 
 Here is how much of TeX's memory you used:
  24671 strings out of 474486
- 636622 string characters out of 5743754
+ 636730 string characters out of 5743754
  1943542 words of memory out of 5000000
  46567 multiletter control sequences out of 15000+600000
  572364 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,1033b,2295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,1039b,2295s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/Carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on samplepaper.pdf (12 pages, 292319 bytes).
+Output written on anonymous-article.pdf (12 pages, 292319 bytes).
 PDF statistics:
  552 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
