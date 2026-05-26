@@ -21,6 +21,8 @@
 \usepackage{pgfplots}
 \usepackage[left=4cm,right=4cm]{geometry}
 \pgfplotsset{compat=1.18}
+\newcommand{\criarteAcronym}{CRIARTE}
+\newcommand{\criarteProjectLong}{\criarteAcronym\ (Construction with Robotics Intelligent and Revolutionary Architecture of Emerging Technologies)}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -38,13 +40,15 @@
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
-\author{No Author Given}
+\author{Carlos Alejandro Freitas Teixeira\inst{1}\orcidID{0009-0006-4081-0640}}
 %
-\authorrunning{No Author Given}
+\authorrunning{C. A. F. Teixeira}
 % Proper names are abbreviated in the header.
 % If there are more than two authors, use 'et al.'.
 %
-\institute{No Institute Given}
+\institute{ Polytechnic Institute of Porto, Portugal\\ 
+Porto School of Engineering (ISEP),\\
+\email{cafrt@isep.ipp.pt}}
 %
 \maketitle              % typeset the header of the contribution
 %
@@ -68,7 +72,7 @@ However, in high-risk environments, approaches based on isolated metrics are ins
 
 In this context, the main challenge is to combine and process physiological signals with artificial intelligence techniques for robust monitoring in real-world settings. This involves challenges such as signal selection, preprocessing, temporal segmentation, and modeling.
 
-This work is part of the European project <REDACTED>, a project focused on transforming the construction sector through robotics, artificial intelligence, and digital twins, with the goal of promoting safe collaboration between humans and autonomous systems. It presents a systematic literature review (2020-2025), based on the PRISMA methodology \cite{page2021prisma}, aimed at consolidating the state of the art on physiological signals and artificial intelligence for monitoring workers in high-risk environments and identifying trends and future challenges.
+This work is part of the European project \criarteProjectLong, a project focused on transforming the construction sector through robotics, artificial intelligence, and digital twins, with the goal of promoting safe collaboration between humans and autonomous systems. It presents a systematic literature review (2020-2025), based on the PRISMA methodology \cite{page2021prisma}, aimed at consolidating the state of the art on physiological signals and artificial intelligence for monitoring workers in high-risk environments and identifying trends and future challenges.
 \subsection{Objectives}
 
 The general objective of this paper is to conduct a systematic literature review on the physiological monitoring of workers in high-risk environments, with a focus on applying artificial intelligence techniques to predict human states relevant to occupational safety. Specifically, it aims to:
@@ -77,7 +81,7 @@ The general objective of this paper is to conduct a systematic literature review
     \item \textbf{AI methods:} analyze machine learning and deep learning techniques applied to multimodal physiological time-series modeling.
     \item \textbf{Model evaluation:} compare modeling architectures, processing strategies, and evaluation metrics reported in the literature, considering performance, robustness, and latency.
     \item \textbf{Limitations:} systematize recurring limitations associated with physiological monitoring in real-world settings, including inter-individual variability, motion artifacts, and generalization difficulties.
-    \item \textbf{Practical implications:} discuss the implications of the results for project <REDACTED>, identifying directions for the future development of worker-centered preventive monitoring systems.
+    \item \textbf{Practical implications:} discuss the implications of the results for project \criarteAcronym, identifying directions for the future development of worker-centered preventive monitoring systems.
 \end{enumerate}
 
 \section{Systematic Review Methodology}
@@ -392,11 +396,11 @@ At the human and ethical level, Fasoyinu et al. and Karim et al.\cite{fasoyinu20
 
 \section{Discussion}
 
-In this section, the previously presented results are interpreted from the perspective of implementation in project <REDACTED>, with a focus on the design of the physiological-monitoring module, operational viability on-site, and impact on occupational safety.
+In this section, the previously presented results are interpreted from the perspective of implementation in project \criarteAcronym, with a focus on the design of the physiological-monitoring module, operational viability on-site, and impact on occupational safety.
 
 \subsubsection*{Priority physiological signals for implementation}
 
-The results indicate a clear hierarchy of physiological signals for high-risk environments, with heart rate (HR) and heart rate variability (HRV) as the main indicators of fatigue and stress, serving as the basis for early monitoring in the context of project <REDACTED>.
+The results indicate a clear hierarchy of physiological signals for high-risk environments, with heart rate (HR) and heart rate variability (HRV) as the main indicators of fatigue and stress, serving as the basis for early monitoring in the context of project \criarteAcronym.
 
 Electrodermal activity (EDA) and temperature emerge as complementary signals that can increase system sensitivity in detecting critical states, especially in multimodal approaches using non-intrusive wearable sensors.
 
@@ -404,7 +408,7 @@ By contrast, signals such as EEG and EMG, although informative, present practica
 
 \subsubsection*{Modeling strategy for the predictive module}
 
-The results indicate that the complexity of physiological signals from wearables requires a hybrid modeling approach in the context of project <REDACTED>, combining classical machine learning and deep learning methods.
+The results indicate that the complexity of physiological signals from wearables requires a hybrid modeling approach in the context of project \criarteAcronym, combining classical machine learning and deep learning methods.
 
 Models such as SVM and Random Forest stand out for their efficiency and low latency in resource-constrained scenarios, while architectures such as LSTM and GRU are essential for capturing temporal dynamics associated with the evolution of fatigue and stress.
 
@@ -416,13 +420,13 @@ The results indicate that architecture selection should consider not only accura
 
 Recurrent models such as LSTM and Bi-LSTM stand out for capturing temporal dependencies, enabling the differentiation of short-term effort from accumulated fatigue patterns, while LightGBM and XGBoost offer practical advantages in terms of computational efficiency and real-time implementation.
 
-Together, this evidence suggests a hybrid solution for project <REDACTED> that balances performance, latency, and operational viability, while also including robust preprocessing and validation on real data to mitigate limitations such as motion artifacts, low interpretability, and poor generalization.
+Together, this evidence suggests a hybrid solution for project \criarteAcronym that balances performance, latency, and operational viability, while also including robust preprocessing and validation on real data to mitigate limitations such as motion artifacts, low interpretability, and poor generalization.
 
 \subsubsection*{Safety-oriented validation metrics}
 
 The metric analysis indicates that Accuracy is insufficient in occupational safety contexts because of the imbalance between normal and critical states.
 
-For project <REDACTED>, it is essential to prioritize Recall and F1-score to reduce false negatives associated with severe fatigue and acute stress, while MAE and RMSE allow assessment of the ability to predict physiological evolution.
+For project \criarteAcronym, it is essential to prioritize Recall and F1-score to reduce false negatives associated with severe fatigue and acute stress, while MAE and RMSE allow assessment of the ability to predict physiological evolution.
 
 In addition, performance stability across users should be considered a central requirement, ensuring system consistency in the face of individual variability.
 
@@ -440,7 +444,7 @@ Finally, it is essential to incorporate user-specific adaptive calibration, dyna
 
 This systematic review synthesizes the state of the art in physiological monitoring and human-state prediction using wearable sensors and artificial intelligence, analyzing 37 studies published between 2020 and 2025.
 
-Based on this analysis, it is concluded that, for the context of project <REDACTED>, it is essential to adopt a multimodal and hybrid approach for \textit{in situ} monitoring. This system should rely on cardiovascular signals ($HR$/$HRV$) complemented by $EDA$ and temperature, using a combination of smartwatches and chest straps to reduce motion artifacts. In terms of modeling, a staged strategy is proposed that combines classical algorithms such as $XGBoost$, suitable for \textit{edge computing} and low latency, with recurrent networks such as $Bi-LSTM$, capable of capturing the temporal evolution of fatigue. For system validation, the need to prioritize metrics sensitive to critical failures, such as \textit{Recall} and \textit{F1-score}, is emphasized, while also integrating adaptive calibration to mitigate workers' physiological variability.
+Based on this analysis, it is concluded that, for the context of project \criarteAcronym, it is essential to adopt a multimodal and hybrid approach for \textit{in situ} monitoring. This system should rely on cardiovascular signals ($HR$/$HRV$) complemented by $EDA$ and temperature, using a combination of smartwatches and chest straps to reduce motion artifacts. In terms of modeling, a staged strategy is proposed that combines classical algorithms such as $XGBoost$, suitable for \textit{edge computing} and low latency, with recurrent networks such as $Bi-LSTM$, capable of capturing the temporal evolution of fatigue. For system validation, the need to prioritize metrics sensitive to critical failures, such as \textit{Recall} and \textit{F1-score}, is emphasized, while also integrating adaptive calibration to mitigate workers' physiological variability.
 
 These findings directly support the design of monitoring systems adapted to construction, the selection of models that balance accuracy with the constraints of edge processing, and the development of ethical solutions aligned with the GDPR and the European Union's AI Act.
 
@@ -450,7 +454,7 @@ In summary, although the state of the art is promising, this research shows that
 
 \begin{credits}
 \subsubsection{\ackname}
-This research was supported by project <REDACTED>, co-financed by the European Regional Development Fund (ERDF) through the COMPETE 2030 Program, project no. <REDACTED>, and by national funds from the Portuguese Foundation for Science and Technology (FCT), under the Research and Development Unit Project <REDACTED>.
+This research was supported by project \criarteAcronym, co-financed by the European Regional Development Fund (ERDF) through the COMPETE 2030 Program, project no. \criarteAcronym, and by national funds from the Portuguese Foundation for Science and Technology (FCT), under the Research and Development Unit Project \criarteAcronym.
 \end{credits}
 
 % OPCIONAL: Se precisar de teoremas, definições, etc.
