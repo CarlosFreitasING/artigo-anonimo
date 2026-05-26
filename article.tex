@@ -400,45 +400,23 @@ In this section, the previously presented results are interpreted from the persp
 
 \subsubsection*{Priority physiological signals for implementation}
 
-The results indicate a clear hierarchy of physiological signals for high-risk environments, with heart rate (HR) and heart rate variability (HRV) as the main indicators of fatigue and stress, serving as the basis for early monitoring in the context of project \criarteAcronym.
-
-Electrodermal activity (EDA) and temperature emerge as complementary signals that can increase system sensitivity in detecting critical states, especially in multimodal approaches using non-intrusive wearable sensors.
-
-By contrast, signals such as EEG and EMG, although informative, present practical limitations in industrial environments due to their intrusiveness and sensitivity to noise, making them less suitable than wearable-device-based solutions.
+The results indicate a clear hierarchy of physiological signals for high-risk environments, with heart rate (HR) and heart rate variability (HRV) as the main indicators of fatigue and stress, serving as the basis for early monitoring in the context of project \criarteAcronym. Electrodermal activity (EDA) and temperature emerge as complementary signals that can increase system sensitivity in detecting critical states, especially in multimodal approaches using non-intrusive wearable sensors. By contrast, signals such as EEG and EMG, although informative, present practical limitations in industrial environments due to their intrusiveness and sensitivity to noise, making them less suitable than wearable-device-based solutions.
 
 \subsubsection*{Modeling strategy for the predictive module}
 
-The results indicate that the complexity of physiological signals from wearables requires a hybrid modeling approach in the context of project \criarteAcronym, combining classical machine learning and deep learning methods.
-
-Models such as SVM and Random Forest stand out for their efficiency and low latency in resource-constrained scenarios, while architectures such as LSTM and GRU are essential for capturing temporal dynamics associated with the evolution of fatigue and stress.
-
-In addition, variability across users reinforces the need for personalized calibration and dynamic adaptation mechanisms, enabling more continuous and accurate communication of risk levels beyond binary classifications.
+The results indicate that the complexity of physiological signals from wearables requires a hybrid modeling approach in the context of project \criarteAcronym, combining classical machine learning and deep learning methods. Models such as SVM and Random Forest stand out for their efficiency and low latency in resource-constrained scenarios, while architectures such as LSTM and GRU are essential for capturing temporal dynamics associated with the evolution of fatigue and stress. In addition, variability across users reinforces the need for personalized calibration and dynamic adaptation mechanisms, enabling more continuous and accurate communication of risk levels beyond binary classifications.
 
 \subsubsection*{Advantages and limitations of architectures in real-world settings}
 
-The results indicate that architecture selection should consider not only accuracy in controlled settings but also suitability for the sequential nature of the data and the operational constraints of construction sites.
-
-Recurrent models such as LSTM and Bi-LSTM stand out for capturing temporal dependencies, enabling the differentiation of short-term effort from accumulated fatigue patterns, while LightGBM and XGBoost offer practical advantages in terms of computational efficiency and real-time implementation.
-
-Together, this evidence suggests a hybrid solution for project \criarteAcronym that balances performance, latency, and operational viability, while also including robust preprocessing and validation on real data to mitigate limitations such as motion artifacts, low interpretability, and poor generalization.
+The results indicate that architecture selection should consider not only accuracy in controlled settings but also suitability for the sequential nature of the data and the operational constraints of construction sites. Recurrent models such as LSTM and Bi-LSTM stand out for capturing temporal dependencies, enabling the differentiation of short-term effort from accumulated fatigue patterns, while LightGBM and XGBoost offer practical advantages in terms of computational efficiency and real-time implementation. Together, this evidence suggests a hybrid solution for project \criarteAcronym that balances performance, latency, and operational viability, while also including robust preprocessing and validation on real data to mitigate limitations such as motion artifacts, low interpretability, and poor generalization.
 
 \subsubsection*{Safety-oriented validation metrics}
 
-The metric analysis indicates that Accuracy is insufficient in occupational safety contexts because of the imbalance between normal and critical states.
-
-For project \criarteAcronym, it is essential to prioritize Recall and F1-score to reduce false negatives associated with severe fatigue and acute stress, while MAE and RMSE allow assessment of the ability to predict physiological evolution.
-
-In addition, performance stability across users should be considered a central requirement, ensuring system consistency in the face of individual variability.
+The metric analysis indicates that Accuracy is insufficient in occupational safety contexts because of the imbalance between normal and critical states. For project \criarteAcronym, it is essential to prioritize Recall and F1-score to reduce false negatives associated with severe fatigue and acute stress, while MAE and RMSE allow assessment of the ability to predict physiological evolution. In addition, performance stability across users should be considered a central requirement, ensuring system consistency in the face of individual variability.
 
 \subsubsection*{Implementation barriers and mitigation}
 
-Transferring monitoring systems from the laboratory to construction environments requires resilient infrastructure capable of handling network instability and latency.
-
-In this context, edge computing is recommended for local fatigue-detection processing, enabling real-time alerts without continuous reliance on the cloud.
-
-In parallel, a multimodal approach with complementary wearables is proposed, combining smartwatches and chest straps to balance versatility and accuracy in the collection of physiological signals while reducing errors associated with motion artifacts.
-
-Finally, it is essential to incorporate user-specific adaptive calibration, dynamically adjusting risk thresholds to individual physiological variability based on historical data.
+Transitioning monitoring systems from the lab to construction sites requires a resilient infrastructure to handle network instability. To mitigate this, we propose using edge computing for local fatigue detection and real-time alerts, a multimodal approach combining smartwatches and chest straps to balance versatility and accuracy while reducing motion errors, and adaptive calibration to dynamically adjust risk thresholds to individual physiological variability based on historical data.
 
 \section{Conclusions}
 
@@ -485,16 +463,6 @@ This research was supported by project \criarteAcronym, co-financed by the Europ
 %
 %
 \begingroup
-\makeatletter
-\let\oldthebibliography\thebibliography
-\let\endoldthebibliography\endthebibliography
-\renewenvironment{thebibliography}[1]{%
-    \oldthebibliography{#1}%
-    \fontsize{8}{8.1}\selectfont
-}{%
-    \endoldthebibliography
-}
-\makeatother
 \bibliographystyle{splncs04}
 \bibliography{mybibliography}
 \endgroup
